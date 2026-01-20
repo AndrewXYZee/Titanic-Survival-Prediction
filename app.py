@@ -1,9 +1,7 @@
-#Load required libraries and model
 import streamlit as st
-import joblib
 import pandas as pd
 import numpy as np
-
+import joblib
 
 model = joblib.load('titanic.joblib')
 
@@ -33,4 +31,5 @@ if st.button("Predict Survival"):
     probability = model.predict_proba(input_df)[0][1]
     st.success(f"Survival probability: **{probability:.1%}**")
     if probability > 0.5:
+
         st.balloons()
