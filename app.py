@@ -1,3 +1,4 @@
+#Load required libraries and model
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -33,5 +34,6 @@ if st.button("Predict Survival"):
     if probability > 0.5:
 
         st.balloons()
+
 
 
