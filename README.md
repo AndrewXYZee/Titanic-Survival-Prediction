@@ -1,6 +1,6 @@
 # Titanic-Survival-Predictor
-ML project which based on passenger data predict if he/she gonna survive or not!
-
+ML project which based on passenger data predict if he/she gonna survive or not!  
+Try it out: https://andrewxyzee-titanic-survival-predictor.streamlit.app/
 ### Demo
 ![Titanic-demo](media/demo.gif)  
 
